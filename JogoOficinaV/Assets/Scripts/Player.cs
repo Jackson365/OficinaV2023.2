@@ -7,6 +7,9 @@ public class Player : MonoBehaviour
     public float speed;
     public float jumpForce;
 
+    private bool isJumping;
+    private bool dobleJump;
+    
     private Rigidbody2D rig;
     private Animator anim;
     
@@ -21,6 +24,7 @@ public class Player : MonoBehaviour
     void Update()
     {
         Move();
+        Jump();
     }
 
     void Move()
@@ -42,6 +46,30 @@ public class Player : MonoBehaviour
 
     void Jump()
     {
-        
+        if (Input.GetButtonDown("Jump"))
+        {
+            if (!isJumping)
+            {
+                rig.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
+                dobleJump = true;
+                isJumping = true;
+            }
+            else
+            {
+                if (dobleJump)
+                {
+                    rig.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
+                    dobleJump = false;
+                }
+            }
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.layer == 8)
+        {
+            isJumping = false;
+        }
     }
 }
