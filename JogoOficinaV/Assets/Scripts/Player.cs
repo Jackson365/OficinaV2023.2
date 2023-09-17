@@ -7,11 +7,17 @@ public class Player : MonoBehaviour
     public float speed;
     public float jumpForce;
 
+    public GameObject magicShot;
+    public Transform magicPoint;
+    
     private bool isJumping;
     private bool dobleJump;
+    private bool isAttack;
     
     private Rigidbody2D rig;
     private Animator anim;
+
+    private float movement;
     
     // Start is called before the first frame update
     void Start()
@@ -23,13 +29,18 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Move();
         Jump();
+        AttackMagic();
+    }
+
+    void FixedUpdate()
+    {
+        Move();
     }
 
     void Move()
     {
-        float movement = Input.GetAxis("Horizontal");
+        movement = Input.GetAxis("Horizontal");
 
         rig.velocity = new Vector2(movement * speed, rig.velocity.y);
 
@@ -53,7 +64,7 @@ public class Player : MonoBehaviour
             transform.eulerAngles = new Vector3(0, 180, 0);
         }
 
-        if (movement == 0 && !isJumping)
+        if (movement == 0 && !isJumping && !isAttack)
         {
             anim.SetInteger("Transitions", 0);
         }
@@ -75,13 +86,42 @@ public class Player : MonoBehaviour
                 if (dobleJump)
                 {
                     anim.SetInteger("Transitions", 2);
-                    rig.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
+                    rig.AddForce(new Vector2(0, jumpForce * 1), ForceMode2D.Impulse);
                     dobleJump = false;
                 }
             }
         }
     }
 
+    void AttackMagic()
+    {
+        StartCoroutine("Attack");
+    }
+
+    IEnumerator Attack()
+    {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            isAttack = true;
+            anim.SetInteger("Transitions", 3);
+            GameObject Magic = Instantiate(magicShot, magicPoint.position, magicPoint.rotation);
+            isAttack = false;
+            if (transform.rotation.y == 0)
+            {
+                Magic.GetComponent<MagicShot>().isRight = true;
+            }
+
+            if (transform.rotation.y == 180)
+            {
+                Magic.GetComponent<MagicShot>().isRight = false;
+            }
+            
+            yield return new WaitForSeconds(0.2f);
+            anim.SetInteger("Transitions", 0);
+        }
+    }
+
+    
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.layer == 8)
@@ -90,3 +130,4 @@ public class Player : MonoBehaviour
         }
     }
 }
+
