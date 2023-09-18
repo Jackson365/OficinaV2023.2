@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public int health = 3;
     public float speed;
     public float jumpForce;
 
@@ -24,6 +25,8 @@ public class Player : MonoBehaviour
     {
         rig = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+
+        GameController.instance.UpdateLives(health);
     }
 
     // Update is called once per frame
@@ -121,6 +124,17 @@ public class Player : MonoBehaviour
         }
     }
 
+    public void Damage(int dmg)
+    {
+        health -= dmg;
+        GameController.instance.UpdateLives(health);
+
+        if(health <= 0)
+        {
+            //Game Over
+        }
+    }
+
     
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -130,4 +144,3 @@ public class Player : MonoBehaviour
         }
     }
 }
-
