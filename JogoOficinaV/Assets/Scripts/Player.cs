@@ -19,7 +19,7 @@ public class Player : MonoBehaviour
     private Animator anim;
 
     private float movement;
-    
+
     // Start is called before the first frame update
     void Start()
     {
