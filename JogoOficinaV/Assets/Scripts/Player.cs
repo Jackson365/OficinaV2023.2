@@ -25,8 +25,6 @@ public class Player : MonoBehaviour
     {
         rig = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-
-        GameController.instance.UpdateLives(health);
     }
 
     // Update is called once per frame
@@ -34,6 +32,8 @@ public class Player : MonoBehaviour
     {
         Jump();
         AttackMagic();
+
+        GameController.instance.UpdateLives(health);
     }
 
     void FixedUpdate()
@@ -133,6 +133,12 @@ public class Player : MonoBehaviour
         {
             //Game Over
         }
+    }
+
+    public void IncreaseLife(int value)
+    {
+        health += value;
+        GameController.instance.UpdateLives(health);
     }
 
     
