@@ -1,0 +1,3424 @@
+fileFormatVersion: 2
+guid: 36e2b4535ba3383498d858a31cb44d76
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: personagem fogo_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 868
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b42b9702b185be449c42ba19ae0533f
+      internalID: 748912863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 857
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2384f5a87f546b54a842dd6d08664421
+      internalID: -1163135177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 864
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a16903b2dfaa94aac5f159ee7a4ab4
+      internalID: 439099496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_3
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 794
+        width: 42
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aab983a701ec4045a190d89eff93f11
+      internalID: 379804965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_4
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 794
+        width: 90
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c085554285457b41be76a19cb252b0e
+      internalID: -70517834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_5
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 794
+        width: 92
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b234dd8defa29954abca74eb7b25fb41
+      internalID: 1117419212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_6
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 794
+        width: 38
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea7f7f6d09358549bfb345663802267
+      internalID: -1423695940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_7
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 852
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb82306e62d1824983b28220d36058d
+      internalID: -492529699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_8
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 850
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70443398aa94fb43866141ea1399eeb
+      internalID: 578635794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_9
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 794
+        width: 42
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3cd4d6f2a3e194faf09f505f309266
+      internalID: -1306660811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_10
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 698
+        width: 38
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fa7fa76494b4a47b7770961485a375
+      internalID: 1897522833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_11
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 752
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4455e00cae7d36e46879efcf3828b8c9
+      internalID: -1754097405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_12
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 698
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2114082c95ae7545b087772c8e7d775
+      internalID: -112036985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_13
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 698
+        width: 53
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd538980c75529a438c6a8a8a1d5a861
+      internalID: -258902866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_14
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 698
+        width: 89
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3510c5e2a7a0f2458dda2be49a98f0d
+      internalID: -683453658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_15
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 698
+        width: 42
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05470e0f577f71043a81d8db9051a068
+      internalID: -556809453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_16
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 744
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00732db36eea6c1489e51e745fa50044
+      internalID: -1134843829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_17
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 731
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24aa65ceeb6ec047b8337829b232461
+      internalID: -20131558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_18
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 676
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc7d942568f1a24ea2b0ca983eb1eaa
+      internalID: 1465052601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_19
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 602
+        width: 52
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410d9ac69c2547c4db788a6721b6fb3f
+      internalID: 1703785558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_20
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 677
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc17c8c4b039d114aac6ac89d3620df2
+      internalID: 957403899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_21
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 680
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067cddf7e802d9e498c6c171cb162710
+      internalID: 1876974767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_22
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 677
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d74f630d1ed3b48830ef622f0f6e84
+      internalID: 979733946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_23
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 674
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9988da7d6841b6740ad0f1699444d179
+      internalID: 542996178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_24
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 602
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff430d814d39ec048bc195189f95da30
+      internalID: -1796569058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_25
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 664
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e58aa02401a5ae4b9000d1a534d6b27
+      internalID: 1691541895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_26
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 602
+        width: 58
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c80db691aae0814f85343afe96ed2c0
+      internalID: 1383975881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_27
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 602
+        width: 39
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5be544e2f47cf342b41303ad0dfa63b
+      internalID: -1174435884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_28
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 602
+        width: 36
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82cc841dbe3903442b0b1d046f680ac8
+      internalID: -1847673017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_29
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 658
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9385a132a8d574cbc7d21aea892c8b
+      internalID: 1558485530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_30
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 652
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267bc38257465554a9295287d96b96b2
+      internalID: -817571432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_31
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 659
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6473932d7e04d1945a07f905a17196e7
+      internalID: 1964077482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_32
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 648
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ccbdea7d749f345986d2523d4a2c46
+      internalID: -510609088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_33
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 642
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e7550c9b7f43b47abd69d4c1d7b3b2
+      internalID: -1968652613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_34
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 616
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2df30a36e37ab54bb43ac3f23f152fa
+      internalID: -2121476995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_35
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 636
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d5071b8e8a71c46b148fab0a3b526f
+      internalID: -1155148584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_36
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 636
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cbb33b5942739845b8cff71c4c84adf
+      internalID: -1565753420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_37
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 642
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48855f40ad31fe4fb7cc7953dda6a1a
+      internalID: 605346635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_38
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 632
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d7553ae128a3341bddb74c83606fc5
+      internalID: 1117172154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_39
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 634
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce827cca906f32242990054eea2cdd53
+      internalID: 2003503657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_40
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 616
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734486b94b1c8ec42ab273f9c10883b0
+      internalID: 1418312705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_41
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 618
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf4e99a8b35ce34984c4a972b5627a5
+      internalID: -1675108184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_42
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 620
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a297c49b3d936e42a727a6549275608
+      internalID: -633956754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_43
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 614
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daee69270af79d64bafa9c2e43081503
+      internalID: -1920388398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_44
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 610
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab25505cb0ac4ce47bda6d83f315972a
+      internalID: 559409365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_45
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 608
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d5f5242c30b1a4297957543d772fc0
+      internalID: 1152451510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_46
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 604
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08732b45ce644947b9c6ef3d6c2cab8
+      internalID: 142950609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_47
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 506
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1183086c08a3e04587451b34df15742
+      internalID: -169158352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_48
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 506
+        width: 48
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03ffba9b9f6f0a4f91aedead50f684e
+      internalID: 1030595046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_49
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 592
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14404952dc286ed44a5c4f416dd26e6f
+      internalID: 1075643522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_50
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 506
+        width: 91
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3009a43c43150d49949cb894205b81a
+      internalID: 492369947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_51
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 581
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb23cc0c5ccdd6c44a82146b29e7ce9a
+      internalID: -1590439857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_52
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 580
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151fc082b2145444f84df9758f32c6bb
+      internalID: 1630148741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_53
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 584
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126b05a200be1354fb72b92062e97bad
+      internalID: 1890302168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_54
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 584
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629c9720c3fb6f847863753671f07e90
+      internalID: 52872158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_55
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 506
+        width: 52
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c962bd4704c98c4186af70e9c852029
+      internalID: -907247826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_56
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 506
+        width: 40
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489e95166c87c814481bb79167ddfe0b
+      internalID: -1509461632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_57
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 508
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17ee901134f7c34eaa3df5eda1aeb23
+      internalID: 2006453126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_58
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 506
+        width: 40
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9208ed5c79ac1149b6c46cb5f288c4c
+      internalID: 1105968800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_59
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 484
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7385c6858e77c489a2e6c0638122c9
+      internalID: 1669549342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_60
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 407
+        width: 38
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8caf80d1d8ff5444aeb63a23dd6ad2c
+      internalID: 1780769466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_61
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 468
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffeb23bfb9791bc499269d82b39aa0be
+      internalID: 197583270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_62
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 470
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b13ea34a34a42c4da3789c955bf4fc2
+      internalID: -644081275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_63
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 468
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839996d26cb5f4146b2b2c3f29bc8981
+      internalID: 482754018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_64
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 474
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816a78d92a92eb34e8678cb94ef32bee
+      internalID: -1033137336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_65
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 472
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba81b7a4559e59b4396a89119b1fa463
+      internalID: -178196204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_66
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 472
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7184ff4458b28f44da7f9f4c1e32a56a
+      internalID: -660883746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_67
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 434
+        width: 70
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f9fd3e68996994ebd18856a52b3e33
+      internalID: -781029677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_68
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 466
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdff6116f73b06c45ad758fce4698fc7
+      internalID: -1550307189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_69
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 414
+        width: 24
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259b9891ec18ea84daa5d68e8e812df9
+      internalID: 2048673933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_70
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 458
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b1552bfe5933548a331c7d9030de95
+      internalID: 1943101848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_71
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 464
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c16496f682778141a30553b5651d47b
+      internalID: 1825403216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_72
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 458
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f52ede3c52db2f4f9c1ccb2a440b5ef
+      internalID: -1278162816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_73
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 460
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 061809fff87435946a51c68accffb377
+      internalID: 88649357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_74
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 450
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b049d0f3ce3ea24cba4daa09e18169b
+      internalID: 1161424326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_75
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 438
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6493948a9ca0314d8d68fbc23d5b565
+      internalID: 2068998912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_76
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 448
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c3afc1875f3cd4c9b4f019da24b9fc
+      internalID: 332674350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_77
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 448
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d992a58dd5029240a4fac334459c170
+      internalID: 1291682980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_78
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 450
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910d1fa1a8966b049bc7feebcbe6a43c
+      internalID: -362399666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_79
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 410
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44c6e2594c9a124e99d30a2b53616c6
+      internalID: 1983907275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_80
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 438
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df485b9c61a823f479cb7a9af236e7ff
+      internalID: -1935396821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_81
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 442
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b36246b5c140c4e9a0b5e5c84a3d6e
+      internalID: -1852075091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_82
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 442
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8b2ddd46ee8614dafb1cde356541ac
+      internalID: 1763413446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_83
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 440
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2fbacd2d4271c34293f646e81ce5a1f
+      internalID: -724263567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_84
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 430
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f912c935b60c4aa42a411b445ca5a6a4
+      internalID: -1773008329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_85
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 428
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d542f9debf80f5c4a8bf772067ba44fb
+      internalID: -1075537818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_86
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 434
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426fc9afe2989d44ab5617095f183450
+      internalID: -60919907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_87
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 412
+        width: 8
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d36669b07118b34a9b79f8b95064899
+      internalID: 2028987057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_88
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 430
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d24c0a7dcc55ed45be0df73e72378e0
+      internalID: 2129139402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_89
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 418
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb26f17b29b5ba4183b222b26d9acb1
+      internalID: 2105203811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_90
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 422
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3693126b00f6f34faa248699eb17515
+      internalID: -211259800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_91
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 420
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4787bd81f8db7334580dfcd8e1ead92a
+      internalID: -1278126724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_92
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 416
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f108f3ceaf4092c40b7f5dc1adb33186
+      internalID: 537177851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_93
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 424
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c21564fd45baa44882e7b74e14a305b
+      internalID: -472737472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_94
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 412
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177a99b71170f894d8c4676dbc8fd4b2
+      internalID: 1929684918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_95
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 418
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4c396cb17cef247960d3fc4df05409
+      internalID: 2103992408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_96
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 414
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591b671aba8848a4e885db929d1849ce
+      internalID: 899119893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_97
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 416
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453fa1f62bb257e4b92efa494965b5b5
+      internalID: -1974005067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_98
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 410
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb152780046603645ac9b3ea915fee82
+      internalID: 1079274835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_99
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 410
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61de424f16a4b9489d1ba8631bd103b
+      internalID: -1659815459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_100
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 410
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3458a6dadbfb5e248845a097d3fc2989
+      internalID: 538570095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_101
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 393
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949380a9cee687f429286b696e00ae03
+      internalID: 65750349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_102
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 392
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0a3b08a9500a24eb649a8af9a4154c
+      internalID: 753351587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_103
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 379
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ba4c6439444764a80392ea5d0f36e3
+      internalID: -1948547826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_104
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 314
+        width: 36
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ccef76032cfde549b7ac4d08decbbce
+      internalID: 1257788209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_105
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 314
+        width: 40
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f676a236bfc963f42b13dca6bcd7e333
+      internalID: -90143991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_106
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 376
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df588881b8ed92b40a58f5af953af399
+      internalID: 538518491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_107
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 369
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4f6843b4f97ba47846702b0a1cdf54
+      internalID: 1164052553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_108
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 292
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3da38043883144f9acfa2bc4ac2b2d
+      internalID: -2018067069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_109
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 293
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8dd7f740572794da93038953ac9aa9
+      internalID: -1137808356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_110
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 296
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9409da94e5527934ca501f7479697d3f
+      internalID: -1415125648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_111
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 293
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba7abe86fb753e4f9cc5571cd7c45a6
+      internalID: -267983073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_112
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 218
+        width: 38
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e483f701b3dda94fbfb608d13130344
+      internalID: 2141118354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_113
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 276
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addac84c121930844acecd47c5c748db
+      internalID: -1821584693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_114
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 218
+        width: 36
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff01f7ca59d461d489575b8bbd3d8940
+      internalID: 1204981093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_115
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 218
+        width: 36
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825688d058a08bb48b775bab706a5880
+      internalID: 1586323546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_116
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 276
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fce324ecae0b9744b4eed4916f92e35
+      internalID: -1466425036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_117
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 218
+        width: 40
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a373cc4966072478cf6aa074020654
+      internalID: 1203322872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_118
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 280
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a132d117ca73c8748a9fd472315ff2af
+      internalID: -473766427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_119
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 274
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ecb5c04aa96944dbbd6d0a6e0d22df
+      internalID: 244288122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_120
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 275
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92fb28a223e9cc943976cccc96239ee1
+      internalID: 308073505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_121
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 274
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a072932989a0d274f90268722384befc
+      internalID: -83661349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_122
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 122
+        width: 39
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a9d974284fd384cb58dc6a27903a27
+      internalID: 1684911560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_123
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 122
+        width: 40
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc223a314baf684680a4601c1155fec
+      internalID: -934295355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_124
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 196
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0db76564a6b19246986ef708aedfb8e
+      internalID: -1145954277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_125
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 204
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8434728eb22f5ed41adb1a484b9ee15a
+      internalID: -924393350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_126
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 196
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5da878e19e39ee45b1f9c449f1257ed
+      internalID: -1696483622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_127
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 197
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e465416123f8b04d9607d914f8dd672
+      internalID: 458490596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_128
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 122
+        width: 38
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce44a35c85856434f89729e8bd7364d6
+      internalID: -290385340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_129
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 180
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0885835b621fe4b85424823d2fd120
+      internalID: -1511552515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_130
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 178
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60cb24d1035138f47937548f413b39be
+      internalID: -1837082967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_131
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 122
+        width: 36
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8e6354918c5c5428f4b63be731368a
+      internalID: 1832663505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_132
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 179
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e756574823f0e44385f78e5266ff6e3
+      internalID: 1042104838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_133
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 122
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6fd3a238e33e549be8c03309be84ac
+      internalID: -1317680352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_134
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 100
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304707384272bdb4d80361a60bef7ab2
+      internalID: -18214126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_135
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 98
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a693f3d9b5ce745aa7c52970a62f01
+      internalID: 378573555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_136
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 96
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cfc3efb176e664ca293f0fb3096d2e
+      internalID: 705501939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_137
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 98
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cecdb654cd9e95149b46e296d277eaf3
+      internalID: 565645544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_138
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 24
+        width: 42
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06cf1759e90d97488d21921cb6f0f23
+      internalID: -1591503340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_139
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 84
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9228654b2dad69c49a63559f76544397
+      internalID: -879354259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_140
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 26
+        width: 36
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594cad99cd4a632449107c7b431b725f
+      internalID: 326242285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_141
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a429967eabc16e84c8aadfb5ffd3fa61
+      internalID: 1620723835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_142
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 24
+        width: 40
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a4977c145bbe94e8907c691c911e3e
+      internalID: 1756359445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_143
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 84
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a79a618cd25e34e9ab2f686cdcda3b
+      internalID: 640812524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_144
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 85
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0105da05e6d64524297a2b1e14d516e3
+      internalID: 711232997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_145
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 26
+        width: 38
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e074d5c8074c7184c907607654f09ded
+      internalID: 698946095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_146
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 88
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1912cd8b8a15a574a849fe3fff37374a
+      internalID: 190842304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_147
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 82
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3e772033b242e4e9736d8e41b4098d
+      internalID: 1380876451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: personagem fogo_148
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 83
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4481a005e159944a72fa6ee58993f1
+      internalID: 104716163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      personagem fogo_78: -362399666
+      personagem fogo_117: 1203322872
+      personagem fogo_100: 538570095
+      personagem fogo_43: -1920388398
+      personagem fogo_63: 482754018
+      personagem fogo_94: 1929684918
+      personagem fogo_10: 1897522833
+      personagem fogo_119: 244288122
+      personagem fogo_71: 1825403216
+      personagem fogo_85: -1075537818
+      personagem fogo_97: -1974005067
+      personagem fogo_114: 1204981093
+      personagem fogo_115: 1586323546
+      personagem fogo_116: -1466425036
+      personagem fogo_108: -2018067069
+      personagem fogo_18: 1465052601
+      personagem fogo_136: 705501939
+      personagem fogo_44: 559409365
+      personagem fogo_147: 1380876451
+      personagem fogo_96: 899119893
+      personagem fogo_99: -1659815459
+      personagem fogo_64: -1033137336
+      personagem fogo_34: -2121476995
+      personagem fogo_62: -644081275
+      personagem fogo_68: -1550307189
+      personagem fogo_55: -907247826
+      personagem fogo_3: 379804965
+      personagem fogo_33: -1968652613
+      personagem fogo_98: 1079274835
+      personagem fogo_87: 2028987057
+      personagem fogo_104: 1257788209
+      personagem fogo_111: -267983073
+      personagem fogo_121: -83661349
+      personagem fogo_106: 538518491
+      personagem fogo_2: 439099496
+      personagem fogo_107: 1164052553
+      personagem fogo_20: 957403899
+      personagem fogo_5: 1117419212
+      personagem fogo_89: 2105203811
+      personagem fogo_128: -290385340
+      personagem fogo_92: 537177851
+      personagem fogo_36: -1565753420
+      personagem fogo_16: -1134843829
+      personagem fogo_45: 1152451510
+      personagem fogo_134: -18214126
+      personagem fogo_42: -633956754
+      personagem fogo_1: -1163135177
+      personagem fogo_35: -1155148584
+      personagem fogo_9: -1306660811
+      personagem fogo_17: -20131558
+      personagem fogo_69: 2048673933
+      personagem fogo_7: -492529699
+      personagem fogo_46: 142950609
+      personagem fogo_141: 1620723835
+      personagem fogo_51: -1590439857
+      personagem fogo_105: -90143991
+      personagem fogo_122: 1684911560
+      personagem fogo_138: -1591503340
+      personagem fogo_24: -1796569058
+      personagem fogo_148: 104716163
+      personagem fogo_14: -683453658
+      personagem fogo_27: -1174435884
+      personagem fogo_133: -1317680352
+      personagem fogo_26: 1383975881
+      personagem fogo_30: -817571432
+      personagem fogo_53: 1890302168
+      personagem fogo_32: -510609088
+      personagem fogo_109: -1137808356
+      personagem fogo_13: -258902866
+      personagem fogo_129: -1511552515
+      personagem fogo_49: 1075643522
+      personagem fogo_72: -1278162816
+      personagem fogo_21: 1876974767
+      personagem fogo_132: 1042104838
+      personagem fogo_70: 1943101848
+      personagem fogo_88: 2129139402
+      personagem fogo_56: -1509461632
+      personagem fogo_65: -178196204
+      personagem fogo_11: -1754097405
+      personagem fogo_139: -879354259
+      personagem fogo_145: 698946095
+      personagem fogo_91: -1278126724
+      personagem fogo_77: 1291682980
+      personagem fogo_47: -169158352
+      personagem fogo_79: 1983907275
+      personagem fogo_41: -1675108184
+      personagem fogo_40: 1418312705
+      personagem fogo_101: 65750349
+      personagem fogo_50: 492369947
+      personagem fogo_118: -473766427
+      personagem fogo_84: -1773008329
+      personagem fogo_39: 2003503657
+      personagem fogo_86: -60919907
+      personagem fogo_144: 711232997
+      personagem fogo_80: -1935396821
+      personagem fogo_130: -1837082967
+      personagem fogo_19: 1703785558
+      personagem fogo_15: -556809453
+      personagem fogo_124: -1145954277
+      personagem fogo_75: 2068998912
+      personagem fogo_57: 2006453126
+      personagem fogo_127: 458490596
+      personagem fogo_113: -1821584693
+      personagem fogo_135: 378573555
+      personagem fogo_90: -211259800
+      personagem fogo_103: -1948547826
+      personagem fogo_29: 1558485530
+      personagem fogo_126: -1696483622
+      personagem fogo_52: 1630148741
+      personagem fogo_12: -112036985
+      personagem fogo_37: 605346635
+      personagem fogo_54: 52872158
+      personagem fogo_61: 197583270
+      personagem fogo_67: -781029677
+      personagem fogo_125: -924393350
+      personagem fogo_123: -934295355
+      personagem fogo_25: 1691541895
+      personagem fogo_140: 326242285
+      personagem fogo_60: 1780769466
+      personagem fogo_23: 542996178
+      personagem fogo_59: 1669549342
+      personagem fogo_0: 748912863
+      personagem fogo_6: -1423695940
+      personagem fogo_82: 1763413446
+      personagem fogo_83: -724263567
+      personagem fogo_102: 753351587
+      personagem fogo_4: -70517834
+      personagem fogo_8: 578635794
+      personagem fogo_112: 2141118354
+      personagem fogo_142: 1756359445
+      personagem fogo_131: 1832663505
+      personagem fogo_28: -1847673017
+      personagem fogo_73: 88649357
+      personagem fogo_22: 979733946
+      personagem fogo_110: -1415125648
+      personagem fogo_137: 565645544
+      personagem fogo_146: 190842304
+      personagem fogo_74: 1161424326
+      personagem fogo_143: 640812524
+      personagem fogo_38: 1117172154
+      personagem fogo_76: 332674350
+      personagem fogo_95: 2103992408
+      personagem fogo_66: -660883746
+      personagem fogo_120: 308073505
+      personagem fogo_31: 1964077482
+      personagem fogo_81: -1852075091
+      personagem fogo_48: 1030595046
+      personagem fogo_58: 1105968800
+      personagem fogo_93: -472737472
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
