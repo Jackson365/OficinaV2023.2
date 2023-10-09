@@ -20,6 +20,10 @@ public class Player : MonoBehaviour
 
     private float movement;
 
+    public AudioSource shotM;
+    public AudioSource JumpP;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -83,6 +87,7 @@ public class Player : MonoBehaviour
                 rig.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
                 dobleJump = true;
                 isJumping = true;
+                JumpP.Play();
             }
             else
             {
@@ -91,6 +96,7 @@ public class Player : MonoBehaviour
                     anim.SetInteger("Transitions", 2);
                     rig.AddForce(new Vector2(0, jumpForce * 1), ForceMode2D.Impulse);
                     dobleJump = false;
+                    JumpP.Play();
                 }
             }
         }
@@ -109,6 +115,7 @@ public class Player : MonoBehaviour
             anim.SetInteger("Transitions", 3);
             GameObject Magic = Instantiate(magicShot, magicPoint.position, magicPoint.rotation);
             isAttack = false;
+            shotM.Play();
             if (transform.rotation.y == 0)
             {
                 Magic.GetComponent<MagicShot>().isRight = true;
