@@ -1,0 +1,1495 @@
+fileFormatVersion: 2
+guid: e2acb06aeb5feeb4b9296e74755d7faa
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mago Boss_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 214
+        width: 43
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c6025988af6344b8630d74c4f3ec8e
+      internalID: 308891066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_1
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 214
+        width: 33
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35168449aed27914a82f24b287fa6072
+      internalID: -1630281489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 214
+        width: 35
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e404e11c040fb74e9a6e0760271f0a0
+      internalID: 1041024639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 251
+        width: 54
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31976c9ab6e66640997483d670971a3
+      internalID: -384403241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_4
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 251
+        width: 33
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec858046d40fd84380b54c1091b027e
+      internalID: -1383677047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_5
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 214
+        width: 31
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7046328650fb34b4ea428542c67a275c
+      internalID: 1914057636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_6
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 215
+        width: 32
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4828ba42fbbac4a93a9bb4fed49644
+      internalID: 1581440466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_7
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 214
+        width: 32
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5c5365ba6783a499039875dc6265c4
+      internalID: -350653064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_8
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 214
+        width: 34
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be7e75fe389c1ed4da1384d2b042a15f
+      internalID: 323429270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_9
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 171
+        width: 32
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e6beb8b259a9e418211e98243a5f9c
+      internalID: 1231113577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_10
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 172
+        width: 32
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d073bfdc7def68b498ea51d03350f56a
+      internalID: -2092736240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_11
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 171
+        width: 32
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9d86424a4fc554ebdc5d7943088f5e
+      internalID: -1666092849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_12
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 172
+        width: 32
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607b1ff670e6ddb41bf964c1fc28bff7
+      internalID: -1505256837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_13
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 170
+        width: 32
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2f5c1e8b49ae44e8fc285bf4ea885f
+      internalID: 2123857167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_14
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 170
+        width: 32
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6872bf3c676744d956e6187e47e2f6
+      internalID: -2030669868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_15
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 173
+        width: 30
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93291d0dd31851429eae4bb2db70ef5
+      internalID: -644106245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_16
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 130
+        width: 32
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba31dfe2c8cb8804985bda0c888120fd
+      internalID: -2123134594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_17
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 131
+        width: 32
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24a6bae3bae3294f9d776b56fa0c837
+      internalID: 1020834357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_18
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 130
+        width: 31
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d25309eaabe99b84cac1466e8dd4b776
+      internalID: 1469972199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_19
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 131
+        width: 31
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09a39e55d05e65439c58d52a7096270
+      internalID: -343021470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_20
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 130
+        width: 32
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c862cf1946ffbc84084433f0930674d9
+      internalID: -812930687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_21
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 130
+        width: 34
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a941540dadc62ed4789491113cfad31a
+      internalID: -548323744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_22
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 131
+        width: 31
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c5d623e3602b348a3e58ef18d02280
+      internalID: -965439700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_23
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 91
+        width: 33
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f9479415aaec34f956320b49fef89c
+      internalID: -159607673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_24
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 91
+        width: 37
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13a2c44262cc71479cf8880db25e5bf
+      internalID: 974635413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_25
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 91
+        width: 43
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9a5d832fe913e40bd8853709e3729d
+      internalID: -970959558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_26
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 89
+        width: 33
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac266804309fc849a86fbcddc597df9
+      internalID: 645458041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_27
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 89
+        width: 32
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6b3767277b22d48b7f728925622c02
+      internalID: 372558767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_28
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 89
+        width: 33
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b7b7915be3ea946a5a235ec1209e59
+      internalID: -1200625917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_29
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 47
+        width: 32
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4829f7714abc1b4c99c5785ffce9ad6
+      internalID: 2013073275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_30
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 48
+        width: 33
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56dc30fb54d14ed4db8a333585c24c87
+      internalID: 1787007181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_31
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 48
+        width: 28
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c493ca75d974c1e4aa53efa763b82638
+      internalID: -1758729075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_32
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 48
+        width: 35
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d232b9ff22566ca4ca98b13692360aba
+      internalID: -1782401714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_33
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 48
+        width: 37
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f29c9780f09ad349b4954181318762c
+      internalID: 365320609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_34
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 48
+        width: 36
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473e8f93c5a8cf84f93af8c879aafb9b
+      internalID: 1036460044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_35
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 4
+        width: 37
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c65cb19c4fb8424cadac91da2b6fc53
+      internalID: 206779250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_36
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 4
+        width: 28
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8bc7b9133a752f459a5c53a9a318ff6
+      internalID: 496346220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_37
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 4
+        width: 28
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4acd377df32ef5a4683271c6a17fb8b1
+      internalID: 1612140495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_38
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 4
+        width: 29
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7eff6706321ae4cb27a187413333d7
+      internalID: 1559538246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_39
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 4
+        width: 40
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ea6809c629bcde4ebb52b29ad97b30a
+      internalID: 1732178564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_40
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 4
+        width: 28
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537ab869191b2d64b917b7d646290699
+      internalID: -1866121061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mago Boss_41
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 4
+        width: 28
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9370923b27aa1498d230c5f32d69f1
+      internalID: 1900788306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -113, y: -107.5}
+      - {x: -124, y: -111.5}
+      - {x: -132, y: -123.5}
+      - {x: -132, y: -140.5}
+      - {x: -129, y: -145.5}
+      - {x: -104, y: -145.5}
+      - {x: -91, y: -134.5}
+      - {x: -91, y: -112.5}
+      - {x: -104, y: -107.5}
+    - - {x: -80, y: -106.5}
+      - {x: -90, y: -114.5}
+      - {x: -90, y: -139.5}
+      - {x: -86, y: -145.5}
+      - {x: -58, y: -145.5}
+      - {x: -58, y: -109.5}
+      - {x: -61, y: -106.5}
+    - - {x: -47, y: -106.5}
+      - {x: -52, y: -111.5}
+      - {x: -57, y: -114.5}
+      - {x: -57, y: -141.5}
+      - {x: -52, y: -145.5}
+      - {x: -26, y: -145.5}
+      - {x: -25, y: -142.5}
+      - {x: -25, y: -109.5}
+      - {x: -35, y: -106.5}
+    - - {x: -15, y: -106.5}
+      - {x: -25, y: -109.5}
+      - {x: -25, y: -140.5}
+      - {x: -21, y: -145.5}
+      - {x: 7, y: -145.5}
+      - {x: 8, y: -141.5}
+      - {x: 8, y: -109.5}
+      - {x: 1, y: -106.5}
+    - - {x: 109, y: -124.5}
+      - {x: 109, y: -119.5}
+      - {x: 108, y: -117.5}
+      - {x: 100, y: -106.5}
+      - {x: 63, y: -106.5}
+      - {x: 54, y: -111.5}
+      - {x: 55, y: -114.5}
+      - {x: 53, y: -111.5}
+      - {x: 34, y: -106.5}
+      - {x: 29, y: -106.5}
+      - {x: 26, y: -107.5}
+      - {x: 15, y: -111.5}
+      - {x: 7, y: -127.5}
+      - {x: 7, y: -136.5}
+      - {x: 13, y: -145.5}
+      - {x: 109, y: -145.5}
+      - {x: 109, y: -130.5}
+      - {x: 107, y: -129.5}
+    - - {x: 78, y: -124.5}
+      - {x: 79, y: -126.5}
+      - {x: 82, y: -128.5}
+      - {x: 75, y: -128.5}
+      - {x: 76, y: -128.5}
+    - - {x: -103, y: -62.5}
+      - {x: -115, y: -62.5}
+      - {x: -123, y: -63.5}
+      - {x: -128, y: -83.5}
+      - {x: -128, y: -97.5}
+      - {x: -121, y: -102.5}
+      - {x: -110, y: -102.5}
+      - {x: -94, y: -97.5}
+      - {x: -92, y: -89.5}
+      - {x: -92, y: -67.5}
+    - - {x: -75, y: -61.5}
+      - {x: -86, y: -64.5}
+      - {x: -91, y: -76.5}
+      - {x: -91, y: -101.5}
+      - {x: -65, y: -101.5}
+      - {x: -54, y: -94.5}
+      - {x: -54, y: -65.5}
+      - {x: -63, y: -61.5}
+    - - {x: -44, y: -62.5}
+      - {x: -48, y: -63.5}
+      - {x: -49, y: -65.5}
+      - {x: -49, y: -99.5}
+      - {x: -47, y: -101.5}
+      - {x: -27, y: -101.5}
+      - {x: -18, y: -98.5}
+      - {x: -17, y: -83.5}
+      - {x: -17, y: -70.5}
+      - {x: -28, y: -62.5}
+    - - {x: -19, y: -101.5}
+      - {x: 20, y: -101.5}
+      - {x: 20, y: -67.5}
+      - {x: 18, y: -62.5}
+      - {x: -12, y: -62.5}
+      - {x: -19, y: -68.5}
+    - - {x: 27, y: -65.5}
+      - {x: 19, y: -76.5}
+      - {x: 19, y: -101.5}
+      - {x: 60, y: -101.5}
+      - {x: 60, y: -76.5}
+      - {x: 48, y: -65.5}
+    - - {x: 75, y: -65.5}
+      - {x: 63, y: -73.5}
+      - {x: 63, y: -95.5}
+      - {x: 70, y: -101.5}
+      - {x: 103, y: -101.5}
+      - {x: 103, y: -65.5}
+    - - {x: 15, y: -23.5}
+      - {x: 4, y: -32.5}
+      - {x: 4, y: -55.5}
+      - {x: 9, y: -60.5}
+      - {x: 38, y: -60.5}
+      - {x: 41, y: -50.5}
+      - {x: 41, y: -28.5}
+      - {x: 32, y: -23.5}
+    - - {x: 54, y: -22.5}
+      - {x: 40, y: -35.5}
+      - {x: 40, y: -60.5}
+      - {x: 75, y: -60.5}
+      - {x: 76, y: -59.5}
+      - {x: 76, y: -28.5}
+      - {x: 71, y: -22.5}
+    - - {x: 83, y: -20.5}
+      - {x: 81, y: -27.5}
+      - {x: 81, y: -60.5}
+      - {x: 100, y: -60.5}
+      - {x: 118, y: -52.5}
+      - {x: 118, y: -26.5}
+      - {x: 105, y: -20.5}
+    - - {x: -112, y: -24.5}
+      - {x: -123, y: -27.5}
+      - {x: -130, y: -45.5}
+      - {x: -130, y: -51.5}
+      - {x: -128, y: -56.5}
+      - {x: -125, y: -58.5}
+      - {x: -95, y: -58.5}
+      - {x: -93, y: -42.5}
+      - {x: -93, y: -32.5}
+      - {x: -104, y: -24.5}
+    - - {x: -82, y: -27.5}
+      - {x: -92, y: -39.5}
+      - {x: -92, y: -56.5}
+      - {x: -91, y: -57.5}
+      - {x: -82, y: -58.5}
+      - {x: -60, y: -58.5}
+      - {x: -51, y: -46.5}
+      - {x: -51, y: -38.5}
+      - {x: -59, y: -27.5}
+    - - {x: -30, y: -36.5}
+      - {x: -50, y: -51.5}
+      - {x: -50, y: -58.5}
+      - {x: -7, y: -58.5}
+      - {x: -3, y: -55.5}
+      - {x: -3, y: -50.5}
+      - {x: -12, y: -36.5}
+    - - {x: -133, y: 19.5}
+      - {x: -133, y: -19.5}
+      - {x: -101, y: -19.5}
+      - {x: -97, y: -7.5}
+      - {x: -97, y: 16.5}
+      - {x: -102, y: 19.5}
+    - - {x: -58, y: 19.5}
+      - {x: -61, y: 9.5}
+      - {x: -61, y: -11.5}
+      - {x: -52, y: -19.5}
+      - {x: -32, y: -19.5}
+      - {x: -26, y: -17.5}
+      - {x: -26, y: 19.5}
+    - - {x: 21, y: 15.5}
+      - {x: 9, y: 3.5}
+      - {x: 9, y: -19.5}
+      - {x: 38, y: -19.5}
+      - {x: 45, y: 0.5}
+      - {x: 45, y: 8.5}
+      - {x: 35, y: 15.5}
+    - - {x: 75, y: 18.5}
+      - {x: 49, y: 18.5}
+      - {x: 45, y: 11.5}
+      - {x: 44, y: 7.5}
+      - {x: 44, y: -19.5}
+      - {x: 78, y: -19.5}
+      - {x: 82, y: -3.5}
+      - {x: 82, y: 16.5}
+    - - {x: -88, y: 18.5}
+      - {x: -100, y: 6.5}
+      - {x: -100, y: -18.5}
+      - {x: -64, y: -18.5}
+      - {x: -64, y: 14.5}
+      - {x: -75, y: 18.5}
+    - - {x: -17, y: 18.5}
+      - {x: -28, y: 9.5}
+      - {x: -28, y: -18.5}
+      - {x: 3, y: -18.5}
+      - {x: 7, y: 3.5}
+      - {x: 7, y: 10.5}
+      - {x: 1, y: 18.5}
+    - - {x: 100, y: 20.5}
+      - {x: 91, y: 16.5}
+      - {x: 84, y: 0.5}
+      - {x: 84, y: -8.5}
+      - {x: 90, y: -18.5}
+      - {x: 117, y: -18.5}
+      - {x: 119, y: -11.5}
+      - {x: 119, y: 16.5}
+      - {x: 111, y: 20.5}
+    - - {x: 37, y: 60.5}
+      - {x: 23, y: 60.5}
+      - {x: 16, y: 58.5}
+      - {x: 10, y: 42.5}
+      - {x: 10, y: 25.5}
+      - {x: 19, y: 20.5}
+      - {x: 31, y: 20.5}
+      - {x: 41, y: 25.5}
+      - {x: 46, y: 46.5}
+      - {x: 46, y: 51.5}
+    - - {x: 77, y: 60.5}
+      - {x: 56, y: 60.5}
+      - {x: 49, y: 50.5}
+      - {x: 49, y: 33.5}
+      - {x: 58, y: 20.5}
+      - {x: 68, y: 20.5}
+      - {x: 80, y: 25.5}
+      - {x: 85, y: 37.5}
+      - {x: 85, y: 49.5}
+      - {x: 82, y: 59.5}
+    - - {x: -120, y: 60.5}
+      - {x: -129, y: 56.5}
+      - {x: -137, y: 44.5}
+      - {x: -137, y: 29.5}
+      - {x: -131, y: 21.5}
+      - {x: -110, y: 21.5}
+      - {x: -105, y: 23.5}
+      - {x: -101, y: 41.5}
+      - {x: -101, y: 53.5}
+      - {x: -111, y: 60.5}
+    - - {x: -65, y: 60.5}
+      - {x: -69, y: 39.5}
+      - {x: -69, y: 28.5}
+      - {x: -61, y: 21.5}
+      - {x: -43, y: 21.5}
+      - {x: -37, y: 23.5}
+      - {x: -33, y: 41.5}
+      - {x: -33, y: 53.5}
+      - {x: -43, y: 60.5}
+    - - {x: -96, y: 59.5}
+      - {x: -104, y: 44.5}
+      - {x: -104, y: 29.5}
+      - {x: -98, y: 22.5}
+      - {x: -71, y: 22.5}
+      - {x: -68, y: 31.5}
+      - {x: -68, y: 56.5}
+      - {x: -78, y: 59.5}
+    - - {x: -22, y: 59.5}
+      - {x: -29, y: 56.5}
+      - {x: -35, y: 42.5}
+      - {x: -35, y: 23.5}
+      - {x: -31, y: 22.5}
+      - {x: -2, y: 22.5}
+      - {x: 1, y: 38.5}
+      - {x: 1, y: 52.5}
+      - {x: -7, y: 59.5}
+    - - {x: 114, y: 52.5}
+      - {x: 107, y: 52.5}
+      - {x: 95, y: 49.5}
+      - {x: 91, y: 43.5}
+      - {x: 91, y: 26.5}
+      - {x: 92, y: 23.5}
+      - {x: 116, y: 23.5}
+      - {x: 123, y: 33.5}
+      - {x: 125, y: 37.5}
+      - {x: 125, y: 42.5}
+    - - {x: -136, y: 103.5}
+      - {x: -138, y: 97.5}
+      - {x: -138, y: 69.5}
+      - {x: -132, y: 64.5}
+      - {x: -113, y: 64.5}
+      - {x: -102, y: 67.5}
+      - {x: -102, y: 96.5}
+      - {x: -112, y: 103.5}
+    - - {x: -94, y: 102.5}
+      - {x: -100, y: 95.5}
+      - {x: -100, y: 71.5}
+      - {x: -96, y: 64.5}
+      - {x: -69, y: 64.5}
+      - {x: -64, y: 66.5}
+      - {x: -64, y: 93.5}
+      - {x: -76, y: 102.5}
+    - - {x: -63, y: 102.5}
+      - {x: -65, y: 98.5}
+      - {x: -65, y: 67.5}
+      - {x: -58, y: 64.5}
+      - {x: -31, y: 64.5}
+      - {x: -29, y: 72.5}
+      - {x: -29, y: 98.5}
+      - {x: -38, y: 102.5}
+    - - {x: -16, y: 103.5}
+      - {x: -29, y: 96.5}
+      - {x: -29, y: 65.5}
+      - {x: -25, y: 64.5}
+      - {x: 2, y: 64.5}
+      - {x: 6, y: 85.5}
+      - {x: 6, y: 96.5}
+      - {x: 1, y: 103.5}
+    - - {x: 70, y: 103.5}
+      - {x: 59, y: 100.5}
+      - {x: 56, y: 93.5}
+      - {x: 56, y: 69.5}
+      - {x: 65, y: 64.5}
+      - {x: 90, y: 64.5}
+      - {x: 92, y: 78.5}
+      - {x: 92, y: 96.5}
+      - {x: 82, y: 103.5}
+    - - {x: 110, y: 102.5}
+      - {x: 101, y: 98.5}
+      - {x: 92, y: 83.5}
+      - {x: 92, y: 69.5}
+      - {x: 94, y: 64.5}
+      - {x: 130, y: 64.5}
+      - {x: 130, y: 97.5}
+      - {x: 121, y: 102.5}
+    - - {x: 29, y: 102.5}
+      - {x: 22, y: 99.5}
+      - {x: 16, y: 83.5}
+      - {x: 16, y: 74.5}
+      - {x: 18, y: 70.5}
+      - {x: 30, y: 65.5}
+      - {x: 48, y: 65.5}
+      - {x: 52, y: 76.5}
+      - {x: 52, y: 99.5}
+      - {x: 47, y: 102.5}
+    - - {x: 16, y: 140.5}
+      - {x: 6, y: 122.5}
+      - {x: 6, y: 106.5}
+      - {x: 13, y: 101.5}
+      - {x: 78, y: 101.5}
+      - {x: 79, y: 104.5}
+      - {x: 79, y: 136.5}
+      - {x: 74, y: 140.5}
+    - - {x: -94, y: 102.5}
+      - {x: -91, y: 103.5}
+      - {x: -91, y: 106.5}
+      - {x: -94, y: 107.5}
+      - {x: -96, y: 105.5}
+    - - {x: -66, y: 102.5}
+      - {x: -63, y: 103.5}
+      - {x: -63, y: 106.5}
+      - {x: -66, y: 107.5}
+      - {x: -68, y: 105.5}
+    - - {x: -67, y: 112.5}
+      - {x: -68, y: 110.5}
+      - {x: -66, y: 107.5}
+      - {x: -61, y: 103.5}
+      - {x: -57, y: 102.5}
+      - {x: -52, y: 102.5}
+      - {x: -52, y: 112.5}
+    - - {x: -52, y: 105.5}
+      - {x: -51, y: 102.5}
+      - {x: -48, y: 102.5}
+      - {x: -46, y: 104.5}
+      - {x: -47, y: 107.5}
+      - {x: -50, y: 107.5}
+    - - {x: -86, y: 103.5}
+      - {x: -81, y: 105.5}
+      - {x: -81, y: 108.5}
+      - {x: -84, y: 109.5}
+      - {x: -88, y: 106.5}
+    - - {x: -47, y: 106.5}
+      - {x: -43, y: 104.5}
+      - {x: -40, y: 106.5}
+      - {x: -41, y: 109.5}
+      - {x: -46, y: 111.5}
+      - {x: -48, y: 109.5}
+    - - {x: -100, y: 107.5}
+      - {x: -98, y: 105.5}
+      - {x: -95, y: 106.5}
+      - {x: -95, y: 110.5}
+      - {x: -97, y: 112.5}
+      - {x: -100, y: 111.5}
+    - - {x: -79, y: 108.5}
+      - {x: -77, y: 106.5}
+      - {x: -74, y: 107.5}
+      - {x: -74, y: 110.5}
+      - {x: -76, y: 112.5}
+      - {x: -79, y: 111.5}
+    - - {x: -94, y: 110.5}
+      - {x: -91, y: 111.5}
+      - {x: -91, y: 114.5}
+      - {x: -94, y: 115.5}
+      - {x: -96, y: 113.5}
+    - - {x: -3, y: 116.5}
+      - {x: 0, y: 117.5}
+      - {x: 0, y: 120.5}
+      - {x: -3, y: 121.5}
+      - {x: -5, y: 119.5}
+    - - {x: -115, y: 117.5}
+      - {x: -112, y: 118.5}
+      - {x: -112, y: 121.5}
+      - {x: -115, y: 122.5}
+      - {x: -117, y: 120.5}
+    - - {x: -51, y: 117.5}
+      - {x: -48, y: 118.5}
+      - {x: -48, y: 121.5}
+      - {x: -51, y: 122.5}
+      - {x: -53, y: 120.5}
+    - - {x: -100, y: 119.5}
+      - {x: -97, y: 120.5}
+      - {x: -97, y: 123.5}
+      - {x: -100, y: 124.5}
+      - {x: -102, y: 122.5}
+    - - {x: -117, y: 122.5}
+      - {x: -114, y: 123.5}
+      - {x: -114, y: 126.5}
+      - {x: -117, y: 127.5}
+      - {x: -119, y: 125.5}
+    - - {x: -14, y: 127.5}
+      - {x: -13, y: 124.5}
+      - {x: -10, y: 124.5}
+      - {x: -8, y: 126.5}
+      - {x: -9, y: 129.5}
+      - {x: -12, y: 129.5}
+    - - {x: -1, y: 126.5}
+      - {x: 2, y: 127.5}
+      - {x: 2, y: 130.5}
+      - {x: -1, y: 131.5}
+      - {x: -3, y: 129.5}
+    - - {x: -4, y: 132.5}
+      - {x: -1, y: 133.5}
+      - {x: -1, y: 136.5}
+      - {x: -4, y: 137.5}
+      - {x: -6, y: 135.5}
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mago Boss_30: 1787007181
+      Mago Boss_5: 1914057636
+      Mago Boss_7: -350653064
+      Mago Boss_0: 308891066
+      Mago Boss_13: 2123857167
+      Mago Boss_28: -1200625917
+      Mago Boss_15: -644106245
+      Mago Boss_17: 1020834357
+      Mago Boss_40: -1866121061
+      Mago Boss_9: 1231113577
+      Mago Boss_8: 323429270
+      Mago Boss_23: -159607673
+      Mago Boss_20: -812930687
+      Mago Boss_25: -970959558
+      Mago Boss_34: 1036460044
+      Mago Boss_11: -1666092849
+      Mago Boss_26: 645458041
+      Mago Boss_32: -1782401714
+      Mago Boss_33: 365320609
+      Mago Boss_2: 1041024639
+      Mago Boss_35: 206779250
+      Mago Boss_37: 1612140495
+      Mago Boss_41: 1900788306
+      Mago Boss_1: -1630281489
+      Mago Boss_10: -2092736240
+      Mago Boss_16: -2123134594
+      Mago Boss_39: 1732178564
+      Mago Boss_24: 974635413
+      Mago Boss_36: 496346220
+      Mago Boss_14: -2030669868
+      Mago Boss_19: -343021470
+      Mago Boss_4: -1383677047
+      Mago Boss_6: 1581440466
+      Mago Boss_18: 1469972199
+      Mago Boss_12: -1505256837
+      Mago Boss_31: -1758729075
+      Mago Boss_27: 372558767
+      Mago Boss_3: -384403241
+      Mago Boss_21: -548323744
+      Mago Boss_29: 2013073275
+      Mago Boss_22: -965439700
+      Mago Boss_38: 1559538246
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
