@@ -6,6 +6,7 @@ TagManager:
   tags:
   - boss1
   - chao
+  - Enemy
   layers:
   - Default
   - TransparentFX
