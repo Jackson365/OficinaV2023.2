@@ -1,3 +1,4 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -22,6 +23,7 @@ public class Player : MonoBehaviour
 
     public AudioSource shotM;
     public AudioSource JumpP;
+    public AudioSource collectHeart;
 
 
     // Start is called before the first frame update
@@ -146,6 +148,7 @@ public class Player : MonoBehaviour
     {
         health += value;
         GameController.instance.UpdateLives(health);
+        collectHeart.Play();
     }
 
     
