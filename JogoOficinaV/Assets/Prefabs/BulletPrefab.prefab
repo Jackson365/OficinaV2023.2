@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2195829059446551778}
   - component: {fileID: 2752342957918417079}
   m_Layer: 0
-  m_Name: tiro de fogo
+  m_Name: BulletPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
