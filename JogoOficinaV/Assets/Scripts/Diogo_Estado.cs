@@ -34,10 +34,14 @@ public class Diogo_Estado : MonoBehaviour
         if (TempoAtualDoTiro >= TempoParaTiro)
         {
             TempoAtualDoTiro = 0;
-            foreach (var VARIABLE in COLLECTION)
+            foreach (Transform firepoint in firepoints)
             {
-                
+                Instantiate(Tiro, firepoint.position, firepoint.rotation);
             }
+        }
+        else
+        {
+            TempoAtualDoTiro += Time.deltaTime;
         }
     }
 }
