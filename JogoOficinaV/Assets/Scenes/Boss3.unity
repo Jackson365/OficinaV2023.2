@@ -782,6 +782,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8823129993830012247, guid: 3fbb5a35656b2e945939396e1d27b982, type: 3}
+      propertyPath: walkTime
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8823129993830012247, guid: 3fbb5a35656b2e945939396e1d27b982, type: 3}
       propertyPath: tempTiroMax
       value: 3
       objectReference: {fileID: 0}
