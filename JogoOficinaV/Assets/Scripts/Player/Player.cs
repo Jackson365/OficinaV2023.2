@@ -40,7 +40,7 @@ public class Player : MonoBehaviour
         Jump();
         AttackMagic();
 
-        GameController.instance.UpdateLives(health);
+      //  GameController.instance.UpdateLives(health);
     }
 
     void FixedUpdate()
