@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Diogo_Estado : MonoBehaviour
 {
-    public Diogo_Estado EstadoAtual;
+    //public Diogo_Estado EstadoAtual;
     public float velocidadeRotacao;
 
     public List<Transform> firepoints;
@@ -21,10 +21,10 @@ public class Diogo_Estado : MonoBehaviour
     void Update()
     {
         updateEstado1();
-        if (EstadoAtual == Diogo_Estado.vidaAcabando)
-        {
-            updateEstado2();
-        }
+        //if (EstadoAtual == Diogo_Estado.vidaAcabando)
+        //{
+        //    updateEstado2();
+        //}
 
     }
 
