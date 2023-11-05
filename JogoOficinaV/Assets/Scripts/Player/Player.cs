@@ -24,7 +24,6 @@ public class Player : MonoBehaviour
     public AudioSource shotM;
     public AudioSource JumpP;
     public AudioSource collectHeart;
-    public AudioSource collectElements;
 
 
     // Start is called before the first frame update
@@ -151,18 +150,13 @@ public class Player : MonoBehaviour
         GameController.instance.UpdateLives(health);
         collectHeart.Play();
     }
-  
+
+    
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.layer == 8)
         {
             isJumping = false;
         }
-
-        if(collision.gameObject.tag == "Elements")
-        {
-            collectElements.Play();
-        }
-    
     }
 }

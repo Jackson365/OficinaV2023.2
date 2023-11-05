@@ -9,7 +9,6 @@ TagManager:
   - Enemy
   - TiroRaio
   - TiroBoss
-  - Elements
   layers:
   - Default
   - TransparentFX
