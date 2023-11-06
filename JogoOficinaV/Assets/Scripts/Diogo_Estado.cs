@@ -2,9 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum DiogoEstadoBoss
+{
+    normal,
+    vidaAcabando
+    
+}
 public class Diogo_Estado : MonoBehaviour
 {
-    //public Diogo_Estado EstadoAtual;
+    public DiogoEstadoBoss EstadoAtual;
     public float velocidadeRotacao;
 
     public List<Transform> firepoints;
@@ -21,14 +27,31 @@ public class Diogo_Estado : MonoBehaviour
     void Update()
     {
         updateEstado1();
-        //if (EstadoAtual == Diogo_Estado.vidaAcabando)
-        //{
-        //    updateEstado2();
-        //}
+        if (EstadoAtual == DiogoEstadoBoss.vidaAcabando)
+        {
+            updateEstado2();
+        }
 
     }
 
     void updateEstado1()
+    {
+        transform.Rotate(velocidadeRotacao * Time.deltaTime * Vector3.forward);
+        if (TempoAtualDoTiro >= TempoParaTiro)
+        {
+            TempoAtualDoTiro = 0;
+            foreach (Transform firepoint in firepoints)
+            {
+                Instantiate(Tiro, firepoint.position, firepoint.rotation);
+            }
+        }
+        else
+        {
+            TempoAtualDoTiro += Time.deltaTime;
+        }
+    }
+    
+    void updateEstado2()
     {
         transform.Rotate(velocidadeRotacao * Time.deltaTime * Vector3.forward);
         if (TempoAtualDoTiro >= TempoParaTiro)
