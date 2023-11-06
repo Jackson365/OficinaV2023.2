@@ -8,6 +8,7 @@ TagManager:
   - chao
   - Enemy
   - TiroBoss
+  - Boss2
   layers:
   - Default
   - TransparentFX

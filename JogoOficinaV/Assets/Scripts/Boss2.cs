@@ -1,11 +1,16 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using Quaternion = UnityEngine.Quaternion;
 using Vector2 = UnityEngine.Vector2;
 
 public class Boss2 : MonoBehaviour
 {
+    public int Vida;
+    public int VidaMax;
+    
     public float speed;
     public float walkTime;
     public bool walkRigth = true;
@@ -80,5 +85,5 @@ public class Boss2 : MonoBehaviour
                     }
         }
     }
-
+    
 }
