@@ -85,15 +85,27 @@ public class Boss3 : MonoBehaviour
         }
     }
 
-    public void Damage(int dmg)
+    public void Damage(int dano)
     {
-        anim = dmg;
+        health -= dano;
         anim.SetTrigger("hit");
 
         if (health <= 0)
         {
             Destroy(gameObject);
         }
+
+        if (health <= 3)
+        { 
+            EntrarComortamento2();
+        }
+        
+    }
+
+    public void EntrarComortamento2()
+    {
+        tempTiroMax *= 1.5f;
+        speed *= 5;
     }
 
 }
