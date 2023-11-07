@@ -9,12 +9,15 @@ public class Boss3 : MonoBehaviour
     public float speed;
     public float walkTime;
     public bool walkRigth = true;
+    public int health;
     private float tempTiro;
     public float tempTiroMax = 2;
     public GameObject prefabDeTiro;
+    
+    
 
     private float timer;
-
+    private Animator anim;
     private Rigidbody2D rig;
 
     private bool ataqueEmAndamento = false;
@@ -22,6 +25,7 @@ public class Boss3 : MonoBehaviour
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
 
     }
 
@@ -78,6 +82,17 @@ public class Boss3 : MonoBehaviour
                 transform.eulerAngles = new Vector2(0, 180);
                 rig.velocity = Vector2.left * speed;
             }
+        }
+    }
+
+    public void Damage(int dmg)
+    {
+        anim = dmg;
+        anim.SetTrigger("hit");
+
+        if (health <= 0)
+        {
+            Destroy(gameObject);
         }
     }
 
