@@ -104,8 +104,8 @@ public class Boss3 : MonoBehaviour
 
     public void EntrarComortamento2()
     {
-        tempTiroMax *= 1.5f;
-        speed *= 5;
+        tempTiroMax *= 5f;
+        speed *= 6;
     }
 
 }
