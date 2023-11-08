@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Build.Content;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Quaternion = UnityEngine.Quaternion;
 using Vector2 = UnityEngine.Vector2;
 
@@ -9,12 +11,15 @@ public class Boss3 : MonoBehaviour
     public float speed;
     public float walkTime;
     public bool walkRigth = true;
+    public int health = 10;
     private float tempTiro;
     public float tempTiroMax = 2;
     public GameObject prefabDeTiro;
+    
+    
 
     private float timer;
-
+    private Animator anim;
     private Rigidbody2D rig;
 
     private bool ataqueEmAndamento = false;
@@ -22,6 +27,8 @@ public class Boss3 : MonoBehaviour
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+        GameController.instance.UpdateLives(health);
 
     }
 
@@ -80,6 +87,67 @@ public class Boss3 : MonoBehaviour
             }
         }
     }
+
+    public void Damage(int dano)
+    {
+        health -= dano;
+        anim.SetTrigger("hit");
+        GameController.instance.UpdateLives(health);
+
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+        }
+
+        if (health <= 5)
+        { 
+            EntrarComportamento2();
+        }
+        
+    }
+
+    public void EntrarComportamento2()
+    {
+        tempTiroMax *= 2f;
+        speed *= 5;
+    }
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.name.StartsWith("Magic"))
+        {
+            Damage(1);
+            Destroy(col.gameObject);
+        }
+    }
+
+    public void SubTrairVida(int valor)
+    {
+        health -= valor;
+
+        if (health <= 0)
+        {
+            health = 0;
+            //Boss Mourreu
+            Morreu();
+        }
+    }
+
+    void Morreu()
+    {
+        //GameManager.instance.DerrotouBoss3();
+        Destroy(gameObject);
+    }
+
+    public void DerrotouBoss3()
+    {
+        Invoke(nameof(CarregarProxFase),3);
+    }
+
+    void CarregarProxFase()
+    {
+        //SceneManager.LoadScene("");
+    }
+    
 
 }
 
