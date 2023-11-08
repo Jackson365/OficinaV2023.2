@@ -8,6 +8,8 @@ TagManager:
   - chao
   - Enemy
   - TiroRaio
+  - TiroBoss
+  - Boss2
   - Boss3
   layers:
   - Default
