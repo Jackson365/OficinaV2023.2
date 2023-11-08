@@ -100,6 +100,7 @@ public class Boss2 : MonoBehaviour
         if (health <= 0)
         {
             Destroy(gameObject);
+            SceneManager.LoadScene("Boss3");
         }
 
         if (health <= 3)

@@ -141,6 +141,7 @@ public class Player : MonoBehaviour
         if(health <= 0)
         {
             //Game Over
+            Destroy(gameObject);
         }
     }
 

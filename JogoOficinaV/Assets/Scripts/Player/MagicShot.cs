@@ -34,7 +34,7 @@ public class MagicShot : MonoBehaviour
     {
         if(collision.gameObject.tag == "Enemy")
         {
-            collision.GetComponent<EnemyTest>().Damage(damage);
+            collision.GetComponent<Boss2>().Damage(damage);
             Destroy(gameObject);
         }
     }
