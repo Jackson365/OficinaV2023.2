@@ -8,9 +8,6 @@ using Vector2 = UnityEngine.Vector2;
 
 public class Boss2 : MonoBehaviour
 {
-    public int Vida;
-    public int VidaMax;
-    
     public float speed;
     public float walkTime;
     public bool walkRigth = true;
