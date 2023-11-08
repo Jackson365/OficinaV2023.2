@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Quaternion = UnityEngine.Quaternion;
 using Vector2 = UnityEngine.Vector2;
 
@@ -83,6 +84,7 @@ public class Boss3 : MonoBehaviour
                 rig.velocity = Vector2.left * speed;
             }
         }
+        
     }
 
     public void Damage(int dano)
@@ -107,7 +109,7 @@ public class Boss3 : MonoBehaviour
         tempTiroMax *= 5f;
         speed *= 6;
     }
-
+    
 }
 
 
