@@ -19,24 +19,24 @@ public class Boss1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        BossController.instance.UpdateLives(health);
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector2.left * speed * Time.deltaTime);
+        transform.Translate(Vector2.right * speed * Time.deltaTime);
     }
 
     private void Flipenemy()
     {
         if (faceflip)
         {
-            gameObject.transform.rotation = Quaternion.Euler(0, 0, 0);
+            gameObject.transform.rotation = Quaternion.Euler(0, 180, 0);
         }
         else
         {
-            gameObject.transform.rotation = Quaternion.Euler(0,180,0);
+            gameObject.transform.rotation = Quaternion.Euler(0,0,0);
         }
     }
 
@@ -54,6 +54,7 @@ public class Boss1 : MonoBehaviour
     public void Damage(int dmg)
     {
         health -= dmg;
+        BossController.instance.UpdateLives(health);
 
         if (health <= 0)
         {
@@ -68,6 +69,11 @@ public class Boss1 : MonoBehaviour
         {
            
             collision.gameObject.GetComponent<Player>().Damage(damage);
+            Destroy(gameObject);
         }
     }
+    
+    
+    
+    
 }

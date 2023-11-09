@@ -31,6 +31,7 @@ public class Player : MonoBehaviour
     {
         rig = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        BossController.instance.UpdateLives(health);
     }
 
     // Update is called once per frame
