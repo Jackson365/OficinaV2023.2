@@ -307,6 +307,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   rig: {fileID: 459598118}
+  tempoDeEspera: 10
+  Boss2: Boss2
 --- !u!50 &459598118
 Rigidbody2D:
   serializedVersion: 4
@@ -322,7 +324,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -1042,7 +1044,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1667336308010422611, guid: 9e9cb479ed0782f4db4355481cbc6927, type: 3}
       propertyPath: m_TagString
-      value: boss1
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e9cb479ed0782f4db4355481cbc6927, type: 3}

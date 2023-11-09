@@ -109,7 +109,7 @@ public class Boss3 : MonoBehaviour
     public void EntrarComportamento2()
     {
         tempTiroMax *= 2f;
-        speed *= 5;
+        speed *= 3;
     }
     private void OnTriggerEnter2D(Collider2D col)
     {
