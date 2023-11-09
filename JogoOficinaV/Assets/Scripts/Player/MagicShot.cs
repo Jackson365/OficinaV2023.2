@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -35,6 +36,15 @@ public class MagicShot : MonoBehaviour
         if(collision.gameObject.tag == "Enemy")
         {
             collision.GetComponent<Boss2>().Damage(damage);
+            Destroy(gameObject);
+        }
+    }
+
+    public void OnTriggerEnter2D(Collider collision)
+    {
+        if (collision.gameObject.tag == "boss1")
+        {
+            collision.GetComponent<Boss1>().Damage(damage);
             Destroy(gameObject);
         }
     }
