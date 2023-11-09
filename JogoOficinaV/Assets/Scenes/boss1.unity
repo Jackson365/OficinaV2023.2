@@ -307,10 +307,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   rig: {fileID: 459598118}
-  damage: 5
-  health: 5
-  tempoDeEspera: 10
   Boss2: Boss2
+  damage: 5
+  health: 6
 --- !u!50 &459598118
 Rigidbody2D:
   serializedVersion: 4
@@ -345,7 +344,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.092826694}
+  m_Offset: {x: 0, y: 0.07}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -356,7 +355,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.4, y: 0.45341152}
+  m_Size: {x: 0.4, y: 0.77}
   m_EdgeRadius: 0
 --- !u!114 &459598120
 MonoBehaviour:

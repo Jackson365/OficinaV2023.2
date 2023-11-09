@@ -31,21 +31,28 @@ public class MagicShot : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter2D(Collider2D collision)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.tag == "Enemy")
+        if (collision != null)
         {
-            collision.GetComponent<Boss2>().Damage(damage);
-            Destroy(gameObject);
-        }
-    }
+            if (collision.gameObject.tag == "Enemy")
+            {
+                collision.GetComponent<Boss1>().Damage(damage);
+                Destroy(gameObject);
+            }
 
-    public void OnTriggerEnter2D(Collider collision)
-    {
-        if (collision.gameObject.tag == "boss1")
-        {
-            collision.GetComponent<Boss1>().Damage(damage);
-            Destroy(gameObject);
+            if (collision.gameObject.tag == "Enemy")
+            {
+                collision.GetComponent<Boss2>().Damage(damage);
+                Destroy(gameObject);
+            }
+
+            if (collision.gameObject.tag == "Enemy")
+            {
+                collision.GetComponent<Boss3>().Damage(damage);
+                Destroy(gameObject);
+            }
         }
+
     }
 }

@@ -11,7 +11,6 @@ public class Boss1 : MonoBehaviour
     public Rigidbody2D rig;
     private bool faceflip;
 
-    public float tempoDeEspera = 10f;
     public string Boss2;
 
     public int damage = 1;
@@ -20,18 +19,13 @@ public class Boss1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Invoke("MudarCena", tempoDeEspera);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
         transform.Translate(Vector2.left * speed * Time.deltaTime);
-    }
-
-    void MudarCena()
-    {
-        SceneManager.LoadScene(Boss2);
     }
 
     private void Flipenemy()
@@ -57,21 +51,23 @@ public class Boss1 : MonoBehaviour
         
     }
 
+    public void Damage(int dmg)
+    {
+        health -= dmg;
+
+        if (health <= 0)
+        {
+            SceneManager.LoadScene("Boss2");
+            Destroy(gameObject);
+        }
+    }
+
     private void OnCollisionEnter(Collision collision)
     {
         if(collision.gameObject.tag == "Player")
         {
            
             collision.gameObject.GetComponent<Player>().Damage(damage);
-        }
-    }
-
-    public void Damage(int dmg)
-    {
-        health = -dmg;
-        if (health <= 0)
-        {
-            Destroy(gameObject);
         }
     }
 }
