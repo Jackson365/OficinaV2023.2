@@ -7,11 +7,11 @@ public class GameBossControl : MonoBehaviour
 {
     public Text healthTexto;
 
-    public static GameBossControl instance;
+    public static GameBossControl instanc;
     // Start is called before the first frame update
     void Start()
     {
-        instance = this;
+        instanc = this;
 
     }
 
