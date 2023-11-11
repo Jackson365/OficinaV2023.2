@@ -48,7 +48,12 @@ public class Boss1 : MonoBehaviour
         }
         
         Flipenemy();
-        
+
+        if (col.gameObject.tag == "Player")
+        {
+            col.gameObject.GetComponent<Player>().Damage(damage);
+        }
+
     }
 
     public void Damage(int dmg)
@@ -61,19 +66,5 @@ public class Boss1 : MonoBehaviour
             SceneManager.LoadScene("Boss2");
             Destroy(gameObject);
         }
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        if(collision.gameObject.tag == "Player")
-        {
-           
-            collision.gameObject.GetComponent<Player>().Damage(damage);
-            Destroy(gameObject);
-        }
-    }
-    
-    
-    
-    
+    }  
 }
