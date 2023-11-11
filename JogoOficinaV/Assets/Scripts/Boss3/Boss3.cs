@@ -28,8 +28,12 @@ public class Boss3 : MonoBehaviour
     {
         rig = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        GameController.instance.UpdateLives(health);
 
+    }
+
+    void Update()
+    {
+        GameBossControl.instanc.UpdateLives(health);
     }
 
     IEnumerator SequenciaAtaque()

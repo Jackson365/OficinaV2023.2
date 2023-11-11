@@ -134,6 +134,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &160226964 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6444527598065339489, guid: 66dcb5dffd9f3234e99c70be6f2b6bb6, type: 3}
+  m_PrefabInstance: {fileID: 484086044}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2526858384a75bb40a3e38e03cb7384c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &361825860
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -141,6 +152,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 150830986033692143, guid: 5e4e41637c126834583615f189e6add9, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1852577919001827767, guid: 5e4e41637c126834583615f189e6add9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 160226964}
+    - target: {fileID: 1852577919001827767, guid: 5e4e41637c126834583615f189e6add9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RestartGame
+      objectReference: {fileID: 0}
     - target: {fileID: 6700070075835169401, guid: 5e4e41637c126834583615f189e6add9, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -309,7 +332,7 @@ MonoBehaviour:
   rig: {fileID: 459598118}
   Boss2: Boss1
   damage: 1
-  health: 10
+  health: 5
 --- !u!50 &459598118
 Rigidbody2D:
   serializedVersion: 4
@@ -369,8 +392,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8518e00e6edb28442bac11363c089820, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 5
-  currenthHealth: 5
 --- !u!1001 &484086044
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -426,6 +447,10 @@ PrefabInstance:
       propertyPath: healthText
       value: 
       objectReference: {fileID: 123341545}
+    - target: {fileID: 6444527598065339489, guid: 66dcb5dffd9f3234e99c70be6f2b6bb6, type: 3}
+      propertyPath: gameOverObj
+      value: 
+      objectReference: {fileID: 1888289495}
     - target: {fileID: 7340769803018803159, guid: 66dcb5dffd9f3234e99c70be6f2b6bb6, type: 3}
       propertyPath: m_Name
       value: GameController
@@ -1034,6 +1059,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1888289495 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4908553139055276961, guid: 5e4e41637c126834583615f189e6add9, type: 3}
+  m_PrefabInstance: {fileID: 361825860}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2031209819
 GameObject:
   m_ObjectHideFlags: 0

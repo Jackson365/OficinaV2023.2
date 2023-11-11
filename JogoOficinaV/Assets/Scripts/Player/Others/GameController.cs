@@ -8,6 +8,8 @@ public class GameController : MonoBehaviour
 {
     public Text healthText;
     public static GameController instance;
+
+    public GameObject gameOverObj;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,5 +25,15 @@ public class GameController : MonoBehaviour
     public void UpdateLives(int value)
     {
         healthText.text = "x "  + value.ToString();
+    }
+
+    public void GameOver()
+    {
+        gameOverObj.SetActive(true);
+    }
+
+    public void RestartGame()
+    {
+        SceneManager.LoadScene("boss1");
     }
 }

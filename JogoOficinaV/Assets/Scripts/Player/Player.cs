@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -25,13 +26,11 @@ public class Player : MonoBehaviour
     public AudioSource JumpP;
     public AudioSource collectHeart;
 
-
     // Start is called before the first frame update
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        BossController.instance.UpdateLives(health);
     }
 
     // Update is called once per frame
@@ -142,8 +141,8 @@ public class Player : MonoBehaviour
         if(health <= 0)
         {
             //Game Over
-            Destroy(gameObject);
-        }
+            GameController.instance.GameOver();
+        }      
     }
 
     public void IncreaseLife(int value)

@@ -636,7 +636,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 294, y: 159}
+  m_AnchoredPosition: {x: 216, y: 159}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1138963673
@@ -1024,6 +1024,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1852577919001827767, guid: 5e4e41637c126834583615f189e6add9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2117635388}
+    - target: {fileID: 1852577919001827767, guid: 5e4e41637c126834583615f189e6add9, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RestartGame
+      objectReference: {fileID: 0}
     - target: {fileID: 6700070075835169401, guid: 5e4e41637c126834583615f189e6add9, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1126,6 +1134,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e4e41637c126834583615f189e6add9, type: 3}
+--- !u!1 &1784732895 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4908553139055276961, guid: 5e4e41637c126834583615f189e6add9, type: 3}
+  m_PrefabInstance: {fileID: 1784732894}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1850945692
 GameObject:
   m_ObjectHideFlags: 0
@@ -1226,12 +1239,27 @@ PrefabInstance:
       propertyPath: healthText
       value: 
       objectReference: {fileID: 773976514}
+    - target: {fileID: 6444527598065339489, guid: 66dcb5dffd9f3234e99c70be6f2b6bb6, type: 3}
+      propertyPath: gameOverObj
+      value: 
+      objectReference: {fileID: 1784732895}
     - target: {fileID: 7340769803018803159, guid: 66dcb5dffd9f3234e99c70be6f2b6bb6, type: 3}
       propertyPath: m_Name
       value: GameController
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 66dcb5dffd9f3234e99c70be6f2b6bb6, type: 3}
+--- !u!114 &2117635388 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6444527598065339489, guid: 66dcb5dffd9f3234e99c70be6f2b6bb6, type: 3}
+  m_PrefabInstance: {fileID: 2117635387}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2526858384a75bb40a3e38e03cb7384c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2119316120
 GameObject:
   m_ObjectHideFlags: 0
@@ -1533,7 +1561,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 493, y: 147}
+  m_AnchoredPosition: {x: 415, y: 147}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &8572784408292694675
